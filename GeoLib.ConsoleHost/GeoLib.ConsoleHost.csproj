@@ -63,19 +63,19 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\GeoLib.Contracts\GeoLib.Contracts.csproj">
+    <ProjectReference Include="..\GeoLib.Contracts\GeoLib.Contracts.csproj">
       <Project>{5f1ffdba-bbaa-4e8a-be50-4a29675dd500}</Project>
       <Name>GeoLib.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\GeoLib.Core\GeoLib.Core.csproj">
+    <ProjectReference Include="..\GeoLib.Core\GeoLib.Core.csproj">
       <Project>{461922d9-747f-4bb0-ac2e-4737139eedb6}</Project>
       <Name>GeoLib.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\GeoLib.Data\GeoLib.Data.csproj">
+    <ProjectReference Include="..\GeoLib.Data\GeoLib.Data.csproj">
       <Project>{db2ca02f-5d34-4734-8a44-634bfd381244}</Project>
       <Name>GeoLib.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\GeoLib.Services\GeoLib.Services.csproj">
+    <ProjectReference Include="..\GeoLib.Services\GeoLib.Services.csproj">
       <Project>{ee4a4ff2-57b8-42d2-a1a4-dbfdbc9cb949}</Project>
       <Name>GeoLib.Services</Name>
     </ProjectReference>
