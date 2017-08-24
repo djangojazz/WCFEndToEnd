@@ -84,6 +84,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomHostFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
