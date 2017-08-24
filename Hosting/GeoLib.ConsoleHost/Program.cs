@@ -1,18 +1,22 @@
-﻿using System;
+﻿using GeoLib.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel;
 
 namespace GeoLib.ConsoleHost
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
+      ServiceHost hostGeoManager = new ServiceHost(typeof(GeoManager));
+      hostGeoManager.Open();
 
+      Console.WriteLine("Services started. Press [Enter] to exit.");
+      Console.ReadLine();
 
-            Console.WriteLine("Services started. Press [Enter] to exit.");
-            Console.ReadLine();
-
-        }
+      hostGeoManager.Close();
     }
+  }
 }
