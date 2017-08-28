@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Client", "GeoLib.Cli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Proxies", "GeoLib.Proxies\GeoLib.Proxies.csproj", "{C8C984A8-3A38-4DA7-894F-92C7ED9E0B3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.WebHost", "GeoLib.WebHost\GeoLib.WebHost.csproj", "{23995134-6162-4BCE-9EF3-7D879B5AF78A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +72,10 @@ Global
 		{C8C984A8-3A38-4DA7-894F-92C7ED9E0B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8C984A8-3A38-4DA7-894F-92C7ED9E0B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8C984A8-3A38-4DA7-894F-92C7ED9E0B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23995134-6162-4BCE-9EF3-7D879B5AF78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23995134-6162-4BCE-9EF3-7D879B5AF78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23995134-6162-4BCE-9EF3-7D879B5AF78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23995134-6162-4BCE-9EF3-7D879B5AF78A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

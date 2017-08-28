@@ -1,16 +1,15 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using System.Runtime.Serialization;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GeoLib.Proxies")]
+[assembly: AssemblyTitle("GeoLib.WebHost")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("GeoLib.Proxies")]
+[assembly: AssemblyProduct("GeoLib.WebHost")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -21,7 +20,7 @@ using System.Runtime.Serialization;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4a1b7118-0e24-4bae-a040-bd68fc7acb21")]
+[assembly: Guid("ccf4d90e-e356-4b8c-8168-4d032cb4a1fb")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -30,9 +29,7 @@ using System.Runtime.Serialization;
 //      Build Number
 //      Revision
 //
-// You can specify all the values or you can default the Build and Revision Numbers 
+// You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: ContractNamespace("http://www.pluralsight.com/MiguelCastro/WcfEndToEnd", ClrNamespace = "GeoLib.Client.Contracts")]

@@ -14,11 +14,11 @@ namespace GeoLib.ConsoleHost
     {
       ServiceHost hostGeoManager = new ServiceHost(typeof(GeoManager));
 
-      //Added without config file
-      string address = "net.tcp://localhost:8009/GeoService";
-      Binding binding = new NetTcpBinding();
-      Type contract = typeof(IGeoService);
-      hostGeoManager.AddServiceEndpoint(contract, binding, address);
+      ////Added without config file
+      //string address = "net.tcp://localhost:8009/GeoService";
+      //Binding binding = new NetTcpBinding();
+      //Type contract = typeof(IGeoService);
+      //hostGeoManager.AddServiceEndpoint(contract, binding, address);
 
       hostGeoManager.Open();
 

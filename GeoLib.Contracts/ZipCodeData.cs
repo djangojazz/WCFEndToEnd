@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace GeoLib.Contracts
 {
-  [DataContract]
-  public class ZipCodeData
+  [DataContract(Namespace = "http://www.pluralsight.com/MiguelCastro/WcfEndToEnd")]
+  public class ZipCodeData : IExtensibleDataObject
   {
     [DataMember]
     public string City { get; set; }
@@ -16,5 +16,6 @@ namespace GeoLib.Contracts
     public string State { get; set; }
     [DataMember]
     public string ZipCode { get; set; }
+    public ExtensionDataObject ExtensionData { get; set; }
   }
 }
